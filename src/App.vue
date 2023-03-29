@@ -5,16 +5,19 @@
       <button class="btn btn-primary">Click me!</button>
     </div>
     <ButtonType>登入</ButtonType>
+    <InputType />
   </div>
 </template>
 
 <script>
 import ButtonType from "./components/ButtonType.vue";
+import InputType from "./components/InputType.vue";
 
 export default {
   name: "App",
   components: {
     ButtonType,
+    InputType,
   },
 };
 </script>
